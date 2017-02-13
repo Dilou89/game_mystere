@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<title>Nombre Mystère</title>
+</head>
+<body>
+	
+	<h1> Le nombre Mystère</h1>
+	<content class="zone">
+		<div  id= "depart">
+			<h2>A vous de jouer</h2>
+			<button"  id="start">GO</button><br>
+			
+		</div>
+
+		<div id="zoneJ">
+
+			<label>Entrez un chiffre de 0 à 9</label><br>
+			<input id="essai" name="essai" value=""/><br>
+
+			<div class="alert-success" role="alert" hidden>
+				<strong>Bravo!</strong> Vous avez gagné cette partie. Rejouez
+			</div>
+			<div class="alert-grand" role="alert" hidden>
+				<strong>Trop grand!</strong> Nouvel essai.
+			</div>
+			<div class="alert-petit" role="alert" hidden>
+				<strong>Trop petit!</strong> Nouvel essai.
+			</div>
+			<div class="alert-perdu" role="alert" hidden>
+				<strong>Oups dommage!!!</strong> Vous avez perdu cette partie. Rejouez
+			</div>
+			<span></span>	
+		</content>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+
+	</body>
+	</html>
